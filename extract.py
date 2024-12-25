@@ -36,9 +36,9 @@ for symb in symbols:
         df_low[symb] = [bar.low for bar in bars[symb]]
         df_close[symb] = [bar.close for bar in bars[symb]]
 
-df_vwap.to_csv('vwap.csv')
-df_vol.to_csv('volume.csv')
-df_open.to_csv('open.csv')
-df_high.to_csv('high.csv')
-df_low.to_csv('low.csv')
-df_close.to_csv('close.csv')
+df_vwap.to_csv('./data/vwap.csv')
+df_vol.to_csv('./data/volume.csv')
+df_open.to_csv('./data/open.csv')
+df_high.to_csv('./data/high.csv')
+df_low.to_csv('./data/low.csv')
+df_close.to_csv('./data/close.csv')
